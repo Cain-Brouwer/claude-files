@@ -1,0 +1,15 @@
+{
+  "name": "Frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "../node_modules/.bin/sass -w SCSS:CSS",
+    "minify": "../node_modules/.bin/sass -w style=compressed SCSS:CSS"
+  },
+  "private": true,
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
