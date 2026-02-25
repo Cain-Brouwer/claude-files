@@ -1,0 +1,12 @@
+@use 'variables';
+
+body {
+  font-family: variables.$font-stack;
+  color: variables.$primary-color;
+  font-size: variables.$font-size;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}

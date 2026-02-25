@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "../node_modules/.bin/sass -w SCSS:CSS",
-    "minify": "../node_modules/.bin/sass -w style=compressed SCSS:CSS"
+    "watch": "sass --watch SCSS/main.scss CSS/style.css",
+    "build": "sass SCSS/main.scss CSS/style.css",
+    "minify": "sass SCSS/main.scss CSS/style.css --style=compressed"
   },
   "private": true,
   "devDependencies": {
