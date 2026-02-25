@@ -1,0 +1,23 @@
+@use 'variables';
+
+body {
+  font-family: variables.$font-stack;
+  color: variables.$primary-color;
+  font-size: variables.$font-size;
+}
+
+h1 {
+  font-size: variables.$h1-size;
+  margin-bottom: variables.$spacing-small;
+}
+
+p {
+  font-size: variables.$font-size;
+  color: variables.$text-color;
+}
+
+p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: variables.$primary-color;
+}
