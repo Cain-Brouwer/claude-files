@@ -1,0 +1,12 @@
+{
+  "name": "Frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "sass --watch SCSS/main.scss CSS/style.css",
+    "build": "sass SCSS/main.scss CSS/style.css",
+    "minify": "sass SCSS/main.scss CSS/style.css --style=compressed"
+  },
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}
