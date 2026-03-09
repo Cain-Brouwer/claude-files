@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Serif+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: #2d2d2d;
+    min-height: 100vh;
+}
+
+.background-image {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px;
+    background: linear-gradient(135deg, #a8d8ea, #c9b8e8, #e8b4cb);
+}
+
+#background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.veld {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.veld-1 {
+    width: 340px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    position: sticky;
+    top: 40px;
+}
+
+.veld-1 > h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Geboortedatum, .E-mail {
+    width: 100%;
+    text-align: center;
+}
+
+.Geboortedatum h2, .E-mail h2 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 2px;
+}
+
+.Geboortedatum p, .E-mail p {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.profiel-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.78rem;
+    color: #aaa;
+}
+
+.profiel-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.veld-2 {
+    flex: 1;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectie {
+    padding: 24px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sectie:first-child {
+    padding-top: 0;
+}
+
+.sectie:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.sectie h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #38b6ff;
+    margin-bottom: 12px;
+}
+
+.sectie > p {
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: #444;
+}
+
+.lijst {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lijst li {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.lijst li strong {
+    font-size: 1rem;
+}
+
+.lijst li .periode {
+    font-size: 0.82rem;
+    font-style: italic;
+    color: #888;
+}
+
+.lijst li .school {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.lijst li p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #555;
+    margin-top: 4px;
+}
+
+@media (max-width: 700px) {
+    .background-image {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .veld-1 {
+        width: 100%;
+        position: static;
+    }
+}
+
+.periode-job {
+    padding-top: 1000px;
+}
