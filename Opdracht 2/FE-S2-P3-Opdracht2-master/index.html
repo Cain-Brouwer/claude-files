@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Opdracht 3: Counter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid.css">
+    <style>
+      html { font-size: 20px; }
+      div#counter {
+        padding: 1rem;
+        background-color: #333;
+        color: #fff;
+        font-family: 'Courier new', monospace;
+      }
+      button { padding: 1rem; border: none; cursor: pointer; }
+      button.subtract { background-color: #f00; }
+      button.add { background-color: #0f0; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12" id="buttons">
+          <button class="subtract" value="10">-10</button>
+          <button class="subtract" value="1">-1</button>
+          <button class="add" value="1">+1</button>
+          <button class="add" value="10">+10</button>
+        </div>
+        <div class="col-12">
+          <div id="counter">0</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
