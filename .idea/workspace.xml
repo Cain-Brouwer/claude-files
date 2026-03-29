@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ab6311-41f8-400c-af72-1d80fb77945e" name="Changes" comment="" />
+    <list default="true" id="19ab6311-41f8-400c-af72-1d80fb77945e" name="Changes" comment="opdracht 1 uncommitted files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opdracht 2/FE-S2-P3-Opdracht2-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Opdracht 2/FE-S2-P3-Opdracht2-master/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opdracht 2/FE-S2-P3-Opdracht2-master/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Opdracht 2/FE-S2-P3-Opdracht2-master/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +39,7 @@
     &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 1/Periode 3/Frontend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cainbrouwer/Praesidium_RP/prp_main/fivem_server&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -152,10 +156,26 @@
       <workItem from="1773245037578" duration="136000" />
       <workItem from="1773693378477" duration="9000" />
       <workItem from="1773994488022" duration="8000" />
+      <workItem from="1774015210443" duration="1753000" />
+      <workItem from="1774045960395" duration="116000" />
+      <workItem from="1774515933789" duration="5000" />
     </task>
+    <task id="LOCAL-00001" summary="opdracht 1 uncommitted files">
+      <option name="closed" value="true" />
+      <created>1774015281254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774015281255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="opdracht 1 uncommitted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="opdracht 1 uncommitted files" />
   </component>
 </project>
