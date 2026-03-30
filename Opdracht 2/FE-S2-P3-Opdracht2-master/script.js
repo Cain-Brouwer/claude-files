@@ -12,9 +12,13 @@ const innerHTML = counterEl.textContent;
 
 let counterVal = parseInt(innerHTML, 10);
 
-const add1 =  document.getElementsByClassName('add1');
-    addEventListener('click', () => {})
+const add1 =  document.querySelector('.add1')
+    addEventListener('click', () => {
 
-const add10 = document.getElementsByClassName('add10');
-    add10.addEventListener('click', () => {})
+    });
+
+const add10 = document.querySelector('.add10')
+    add10.addEventListener('click', () => {
+
+    });
 
