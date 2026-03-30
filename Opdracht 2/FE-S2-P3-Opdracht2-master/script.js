@@ -12,13 +12,18 @@ const innerHTML = counterEl.textContent;
 
 let counterVal = parseInt(innerHTML, 10);
 
-const add1 =  document.querySelector('.add1')
-    addEventListener('click', () => {
+const calcButtons = document.querySelectorAll('.add1, .add10, .subtract1, .subtract10')
 
-    });
-
-const add10 = document.querySelector('.add10')
-    add10.addEventListener('click', () => {
-
-    });
+calcButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        if (button.dataset.action === 'add') {
+            counterVal += parseInt(button.value, 10);
+            counterEl.textContent = counterVal;
+        }
+        else if (button.dataset.action === 'subtract') {
+            counterVal -= button.value;
+            counterEl.textContent = counterVal;
+        }
+    })
+})
 
