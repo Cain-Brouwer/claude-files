@@ -14,16 +14,21 @@ let counterVal = parseInt(innerHTML, 10);
 
 const calcButtons = document.querySelectorAll('.add1, .add10, .subtract1, .subtract10')
 
+const resetButton = document.getElementById('reset');
+
 calcButtons.forEach(button => {
     button.addEventListener('click', () => {
         if (button.dataset.action === 'add') {
             counterVal += parseInt(button.value, 10);
             counterEl.textContent = counterVal;
-        }
-        else if (button.dataset.action === 'subtract') {
+        } else if (button.dataset.action === 'subtract') {
             counterVal -= button.value;
             counterEl.textContent = counterVal;
         }
     })
+
 })
 
+resetButton.addEventListener('click', () => {
+    location.reload()
+})
