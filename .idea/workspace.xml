@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ab6311-41f8-400c-af72-1d80fb77945e" name="Changes" comment="opdracht 1 uncommitted files">
+      <change afterPath="$PROJECT_DIR$/Opdracht 3/FE-S2-P3-Opdracht3-master/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdracht 2/FE-S2-P3-Opdracht2-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Opdracht 2/FE-S2-P3-Opdracht2-master/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdracht 2/FE-S2-P3-Opdracht2-master/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Opdracht 2/FE-S2-P3-Opdracht2-master/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opdracht 2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Opdracht 2/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +173,8 @@
       <workItem from="1774895229312" duration="1756000" />
       <workItem from="1775032441693" duration="5029000" />
       <workItem from="1775551291452" duration="9000" />
+      <workItem from="1775719019984" duration="593000" />
+      <workItem from="1776243088118" duration="3613000" />
     </task>
     <task id="LOCAL-00001" summary="opdracht 1 uncommitted files">
       <option name="closed" value="true" />
