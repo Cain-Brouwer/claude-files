@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weerbericht</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Weerbericht</h1>
+        <div class="search-box">
+            <input type="text" id="locationInput" placeholder="Voer een plaats in...">
+            <button id="searchBtn">Zoeken</button>
+            <button id="locationBtn">Gebruik huidige locatie</button>
+        </div>
+        
+        <div class="weather-display">
+            <!-- Current weather -->
+            <div id="current-weather">
+                <img id="current-weercode" alt="" width="80">
+                <div>
+                    <div id="current-temp"></div>
+                    <div id="current-details">
+                        <p id="current-feelslike-label">Gevoels Temperatuur: <span id="current-feelslike"></span></p>
+                        <p id="current-precip-label">Neerslag: <span id="current-precip"></span></p>
+                        <p id="current-description"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hourly weather -->
+            <div id="hourly-weather">
+                <!-- Hourly items will be inserted here -->
+            </div>
+            
+            <!-- Daily weather (chart) -->
+            <div id="weather-graph">
+                <!-- Chart will be inserted here -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Chart.js library -->
+    <script type="text/javascript" src="node_modules/chart.js/dist/chart.umd.js"></script>
+    <!-- Eigen scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
