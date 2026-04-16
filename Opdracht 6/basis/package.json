@@ -1,0 +1,16 @@
+{
+    "name": "opdracht6-weerbericht",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "lite-server"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chart.js": "^4.5.1",
+        "lite-server": "^2.6.1"
+    }
+}
