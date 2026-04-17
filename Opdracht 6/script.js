@@ -36,13 +36,17 @@ function initGlobal() {
 
 function handleSearch() {
     const cityInput = document.getElementById('locationInput').value.trim();
+    console.log('Searching for:', cityInput);  // Debug log
     if (cityInput) {
         getLocationCoordinates(cityInput).then(data => {
+            console.log('Location data received:', data);  // Debug log
             if (data && data.results && data.results.length > 0) {
                 const lat = data.results[0].latitude;
                 const lon = data.results[0].longitude;
+                console.log('Coordinates:', lat, lon);  // Debug log
                 fetchAndDisplayWeather(lat, lon);
             } else {
+                console.log('No results found for:', cityInput);  // Debug log
                 showError('Plaats niet gevonden. Probeer een andere plaats.');
             }
         }).catch(error => {
@@ -100,6 +104,7 @@ async function getLocationCoordinates(city) {
         return data;
     } catch (error) {
         console.error('Error fetching location data:', error);
+        throw error;  // Re-throw so caller's .catch() handles it
     }
 }
 

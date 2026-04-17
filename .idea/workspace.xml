@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ab6311-41f8-400c-af72-1d80fb77945e" name="Changes" comment="opdracht 1 uncommitted files">
-      <change afterPath="$PROJECT_DIR$/Opdracht 3/FE-S2-P3-Opdracht3-master/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opdracht 6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Opdracht 6/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="31" />
+    <option name="cachedIndexableFilesCount" value="97" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="McpProjectServerCommands">
@@ -44,7 +49,7 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/cainbrouwer/Praesidium_RP/prp_main/fivem_server&quot;,
@@ -61,6 +66,7 @@
     &quot;npm.test (1).executor&quot;: &quot;Run&quot;,
     &quot;npm.test.executor&quot;: &quot;Run&quot;,
     &quot;npm.watch.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AcpAgentsConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -174,7 +180,10 @@
       <workItem from="1775032441693" duration="5029000" />
       <workItem from="1775551291452" duration="9000" />
       <workItem from="1775719019984" duration="593000" />
-      <workItem from="1776243088118" duration="3613000" />
+      <workItem from="1776243088118" duration="7058000" />
+      <workItem from="1776273087923" duration="33000" />
+      <workItem from="1776333236179" duration="1211000" />
+      <workItem from="1776374285422" duration="3730000" />
     </task>
     <task id="LOCAL-00001" summary="opdracht 1 uncommitted files">
       <option name="closed" value="true" />
